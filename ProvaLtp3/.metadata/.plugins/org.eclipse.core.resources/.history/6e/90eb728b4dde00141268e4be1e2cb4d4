@@ -1,0 +1,63 @@
+import utilitarios.Console;
+
+
+public class Prova {
+
+	public static void main(String[] args) {
+		int opcao;
+		// TODO Auto-generated method stub
+		do {
+			
+			
+			System.out.println("********menu********");
+			System.out.println("1-Valor Prestação");
+			System.out.println("2-Padronizacao do texto");
+			System.out.println("3-Replicar string");
+			System.out.println("4-Datas de vencimento");
+			System.out.println("0-Sair");
+			opcao = Console.readInt("Informe a opção: ");
+			
+			
+			switch (opcao) {
+				case 1:
+					double valorEmprestimo = Console.readDouble("Valor do Emprestimo: ");
+					double juros = Console.readDouble("Taxa de Juros Mensal: ");
+					int prazo = Console.readInt("Prazo: ");
+					System.out.println("Valor das prestacoes  Mensal: " + (valorPrestacao(valorEmprestimo, juros, prazo)));
+					Console.readLine("");
+					
+					break;
+				case 2:
+					
+					break;
+				
+				case 3:
+					
+					break;
+				
+				case 4:
+				
+					break;
+					
+				case 0:
+					break;
+					
+				default:
+					System.out.println("Opção inválida!");
+					break;
+				}
+		} while (opcao!=0);
+     
+	
+	}
+
+
+
+public static double valorPrestacao (double valorEmprestimo, double juros, int prazo) {
+	juros = juros / 100;
+	return valorEmprestimo * (juros * Math.pow(1+juros, prazo)) / (Math.pow(1+juros, prazo)-1);
+
+}
+
+
+}// fim classe prova
