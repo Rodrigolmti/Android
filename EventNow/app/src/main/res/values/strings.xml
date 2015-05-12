@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Event Now</string>
+    <string name="action_settings">Settings</string>
+
+    //Login
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">No a member? Sign up now</string>
+
+    //Mesage introduction
+    <string name="txtViewIntro">Hello, Welcome to Event Now, here you can post and share events wich fiends!!</string>
+</resources>

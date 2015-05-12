@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">TodoList</string>
+    <string name="buttonMain">Adicionar</string>
+    <string name="telaInicio">Bem vindo ao Todo list</string>
+    <string name="textView">Vazio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- REGISTRO -->
+    <string name="usuarios">Novo usuário</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+    <string name="sair">Sair</string>
+
+    <!-- LOGIN -->
+    <string name="txtUsuario">Usuário:</string>
+    <string name="txtSenha">Senha:</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="ckbConectado">Manter conectado?</string>
+    <string name="btnEntrar">Entrar</string>
+
+    <!-- VALIDACOES -->
+    <string name="login_valUsuario">Usuário obrigatório.</string>
+    <string name="login_valSenha">Senha obrigatório.</string>
+    <string name="campo_obrigatorio">Campo obrigatorio!</string>
+
+    <!-- Mensagens -->
+    <string name="msg_login_incorreto">Usuário e/ou senha inválidos!</string>
+    <string name="title_activity_cad_usuario">Cadastro de ususario</string>
+    <string name="mensagem_sucesso">Registrado com sucesso!</string>
+    <string name="mensagem_atualizada">Registrado atualizado com sucesso!!</string>
+    <string name="mensagem_erro">Erro ao salvar!!</string>
+
+    <!-- Usuarios -->
+    <string name="usuario_txtNome">Nome:</string>
+    <string name="usuario_txtLOgin">Login:</string>
+    <string name="usuario_txtSenha">Senha:</string>
+    <string name="title_activity_tela_inicio">Todo List</string>
+</resources>
