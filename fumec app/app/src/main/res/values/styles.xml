@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Login Themes -->
+
+    <style name="LoginScreen" parent="AppTheme">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="LoginEditText" parent="AppTheme">
+        <item name="android:padding">@dimen/activity_half_padding</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginBottom">@dimen/activity_margin</item>
+    </style>
+
+    <!-- TextView Themes -->
+
+    <style name="TextViewRegular" parent="AppTheme">
+        <item name="android:textColor">@color/pumice</item>
+    </style>
+
+    <style name="TextViewMedium" parent="AppTheme">
+        <item name="android:textColor">@color/montainMist</item>
+    </style>
+
+    <style name="TextViewBlack" parent="AppTheme">
+        <item name="android:textColor">@color/chicago</item>
+    </style>
+
+</resources>

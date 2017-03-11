@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="@dimen/activity_half_margin"
+    android:layout_marginRight="@dimen/activity_half_margin"
+    android:layout_marginTop="4dp"
+    android:background="@drawable/custom_item_border"
+    android:padding="@dimen/activity_half_padding">
+
+    <net.fumapp_android.ui.custom.CustomTextViewBlack
+        android:id="@+id/text_view_class_name"
+        style="@style/TextViewBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_book"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/ic_action_book"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:padding="4dp"
+        tools:text="DESENVOLVIMENTO DE APLICAÇÕES ANDROID"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_action_arrow"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewBlack
+        android:id="@+id/text_view_static_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_class_name"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/fragment_class_note"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewRegular
+        android:id="@+id/text_view_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_class_name"
+        android:layout_toEndOf="@+id/text_view_static_note"
+        android:layout_toRightOf="@+id/text_view_static_note"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        tools:text="60"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewBlack
+        android:id="@+id/text_view_static_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_class_name"
+        android:layout_toEndOf="@+id/text_view_note"
+        android:layout_toRightOf="@+id/text_view_note"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/fragment_class_team"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewRegular
+        android:id="@+id/text_view_team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_class_name"
+        android:layout_toEndOf="@+id/text_view_static_team"
+        android:layout_toRightOf="@+id/text_view_static_team"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        tools:text="301NA"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewBlack
+        android:id="@+id/text_view_static_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_class_name"
+        android:layout_toEndOf="@id/text_view_team"
+        android:layout_toRightOf="@id/text_view_team"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/fragment_class_hour"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewRegular
+        android:id="@+id/text_view_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_class_name"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/text_view_static_hour"
+        android:layout_toRightOf="@id/text_view_static_hour"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        tools:text="80H"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewBlack
+        android:id="@+id/text_view_static_faults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_class_name"
+        android:layout_toEndOf="@id/text_view_hour"
+        android:layout_toRightOf="@id/text_view_hour"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/fragment_class_faults"
+        />
+
+    <net.fumapp_android.ui.custom.CustomTextViewRegular
+        android:id="@+id/text_view_faults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/text_view_static_faults"
+        android:layout_below="@id/text_view_static_team"
+        android:layout_toEndOf="@id/text_view_static_faults"
+        android:layout_toRightOf="@id/text_view_static_faults"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        tools:text="0"
+        />
+
+</RelativeLayout>

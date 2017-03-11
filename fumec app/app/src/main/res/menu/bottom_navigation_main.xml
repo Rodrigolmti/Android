@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_note"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_note_property"
+        android:title="@string/nav_item_note"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_schedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_planner"
+        android:title="@string/nav_item_schedule"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_info"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_info"
+        android:title="@string/nav_item_info"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_exit"
+        android:title="@string/nav_item_logout"
+        app:showAsAction="ifRoom"
+        />
+</menu>

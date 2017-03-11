@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#0099DA</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">#F5F5F5</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="montainMist">#34495e</color>
+    <color name="pumice">#C7C8C9</color>
+    <color name="chicago">#5B5B5B</color>
+
+    <color name="nephritis">#27ae60</color>
+    <color name="carrot">#e67e22</color>
+    <color name="alizarin">#e74c3c</color>
+
+</resources>

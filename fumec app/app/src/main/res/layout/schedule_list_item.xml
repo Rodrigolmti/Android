@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_half_margin">
+
+    <net.fumapp_android.ui.custom.CustomTextViewBlack
+        android:id="@+id/text_view_week_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        style="@style/TextViewBlack"
+        android:layout_margin="@dimen/activity_half_margin"
+        android:visibility="gone"
+        tools:text="SEGUNDA"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_week_day"
+        android:background="@drawable/custom_item_border">
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_discipline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_half_padding"
+            tools:text="ENGENHARIA DE SOFTWARE I"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_static_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_discipline"
+            android:padding="@dimen/activity_half_padding"
+            android:text="@string/fragment_class_team"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewMedium
+            android:id="@+id/text_view_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_discipline"
+            android:layout_toEndOf="@id/text_view_static_class"
+            android:layout_toRightOf="@id/text_view_static_class"
+            android:paddingTop="@dimen/activity_half_padding"
+            tools:text="313"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_static_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_discipline"
+            android:layout_toEndOf="@id/text_view_class"
+            android:layout_toRightOf="@id/text_view_class"
+            android:paddingLeft="@dimen/activity_half_padding"
+            android:paddingRight="@dimen/activity_half_padding"
+            android:paddingTop="@dimen/activity_half_padding"
+            android:text="@string/fragment_schedule_start_at"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewMedium
+            android:id="@+id/text_view_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_discipline"
+            android:layout_toEndOf="@id/text_view_static_start"
+            android:layout_toRightOf="@id/text_view_static_start"
+            android:paddingTop="@dimen/activity_half_padding"
+            tools:text="19:00"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_static_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_discipline"
+            android:layout_marginLeft="@dimen/activity_half_margin"
+            android:layout_marginStart="@dimen/activity_half_margin"
+            android:layout_toEndOf="@id/text_view_start"
+            android:layout_toRightOf="@id/text_view_start"
+            android:paddingTop="@dimen/activity_half_padding"
+            android:text="@string/fragment_schedule_end_at"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewMedium
+            android:id="@+id/text_view_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_discipline"
+            android:layout_marginLeft="@dimen/activity_half_margin"
+            android:layout_marginStart="@dimen/activity_half_margin"
+            android:layout_toEndOf="@id/text_view_static_end"
+            android:layout_toRightOf="@id/text_view_static_end"
+            android:paddingTop="@dimen/activity_half_padding"
+            tools:text="19:50"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

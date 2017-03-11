@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin">
+
+
+        <ImageView
+            android:id="@+id/image_view_student"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/fragment_info_image_student_content"
+            android:src="@drawable/ic_action_student"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_static_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_half_margin"
+            android:layout_toEndOf="@+id/image_view_student"
+            android:layout_toRightOf="@+id/image_view_student"
+            android:text="@string/fragment_info_name"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewRegular
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_view_static_name"
+            android:layout_marginLeft="@dimen/activity_half_margin"
+            android:layout_marginStart="@dimen/activity_half_margin"
+            android:layout_toEndOf="@+id/text_view_static_status"
+            android:layout_toRightOf="@+id/text_view_static_status"
+            tools:text="RODRIGO"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_static_registry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_static_name"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_half_margin"
+            android:layout_toEndOf="@+id/image_view_student"
+            android:layout_toRightOf="@+id/image_view_student"
+            android:text="@string/fragment_info_registry"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewRegular
+            android:id="@+id/text_view_registry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_view_static_registry"
+            android:layout_marginLeft="@dimen/activity_half_margin"
+            android:layout_marginStart="@dimen/activity_half_margin"
+            android:layout_toEndOf="@+id/text_view_static_registry"
+            android:layout_toRightOf="@+id/text_view_static_registry"
+            tools:text="1A224702461"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_static_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_static_registry"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_half_margin"
+            android:layout_toEndOf="@+id/image_view_student"
+            android:layout_toRightOf="@+id/image_view_student"
+            android:text="@string/fragment_info_status"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewRegular
+            android:id="@+id/text_view_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_view_static_status"
+            android:layout_marginLeft="@dimen/activity_half_margin"
+            android:layout_marginStart="@dimen/activity_half_margin"
+            android:layout_toEndOf="@+id/text_view_static_status"
+            android:layout_toRightOf="@+id/text_view_static_status"
+            tools:text="ATIVO"
+            />
+
+        <ImageView
+            android:id="@+id/image_view_app"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/image_view_student"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/fragment_info_image_app_content"
+            android:src="@drawable/ic_action_code"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewBlack
+            android:id="@+id/text_view_static_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_view_static_status"
+            android:layout_alignStart="@+id/text_view_static_status"
+            android:layout_alignTop="@+id/image_view_app"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:text="@string/fragment_info_version"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewRegular
+            android:id="@+id/text_view_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/text_view_static_version"
+            android:layout_below="@id/text_view_status"
+            android:layout_marginLeft="@dimen/activity_half_margin"
+            android:layout_marginStart="@dimen/activity_half_margin"
+            android:layout_toEndOf="@+id/text_view_static_version"
+            android:layout_toRightOf="@+id/text_view_static_version"
+            tools:text="1.0"
+            />
+
+        <net.fumapp_android.ui.custom.CustomTextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_view_app"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:text="@string/fragment_info_info"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

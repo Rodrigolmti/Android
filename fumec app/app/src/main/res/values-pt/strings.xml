@@ -1,0 +1,58 @@
+<resources>
+
+    <string name="app_name">SinApp</string>
+
+    <!-- Navigation -->
+    <string name="nav_item_note">Notas</string>
+    <string name="nav_item_schedule">Horário</string>
+    <string name="nav_item_info">Info</string>
+    <string name="nav_item_logout">Sair</string>
+
+    <!-- General -->
+    <string name="general_loading">Carregando &#8230;</string>
+    <string name="general_error_message">Algo esta errado, tente novamente em alguns minutos!</string>
+    <string name="general_network_message">Confira a sua conexão e tente novamente!</string>
+    <string name="general_authentication_message">Usúario ou enha invalídos!</string>
+
+    <!-- Login Activity -->
+    <string name="activity_login_enrollment_hint">Matrícula</string>
+    <string name="activity_login_password_hint">Senha</string>
+    <string name="activity_login_button">Entrar</string>
+    <string name="activity_login_registry_error">Informe o seu número de registro!</string>
+    <string name="activity_login_password_error">Informe a sua senha!</string>
+
+    <!-- Class Fragment -->
+    <string name="fragment_class_title">Suas Matérias</string>
+    <string name="fragment_class_note">Nota Total: </string>
+    <string name="fragment_class_hour">Carga Horaria:</string>
+    <string name="fragment_class_team">Turma: </string>
+    <string name="fragment_class_faults">Faltas: </string>
+
+    <!-- Note Fragment -->
+    <string name="fragment_note_title">Suas Notas</string>
+    <string name="fragment_note_instructional">Auto Instrucional</string>
+    <string name="fragment_note_content">Revisão de Conteúdo</string>
+    <string name="fragment_note_practice">Pontos de Exercício</string>
+    <string name="fragment_note_firts_evaluation">Primeira Avaliação</string>
+    <string name="fragment_note_second_evaluation">Segunda Avaliação</string>
+    <string name="fragment_note_special_evaluation">Avaliação Especial</string>
+    <string name="fragment_note_value_note">Nota</string>
+    <string name="fragment_note_launch">Nota nÃo lançada!</string>
+    <string name="fragment_note_total">Total</string>
+
+    <!-- Schedule Fragment -->
+    <string name="fragment_schedule_title">Seu Horário</string>
+    <string name="fragment_schedule_start_at">Começa as: </string>
+    <string name="fragment_schedule_end_at">Termina as: </string>
+
+    <!-- Info Fragment -->
+    <string name="fragment_info_title">Informações</string>
+    <string name="fragment_info_image_student_content">Imagem do estudante</string>
+    <string name="fragment_info_image_app_content">Imagem do aplicativo</string>
+    <string name="fragment_info_name">Nome: </string>
+    <string name="fragment_info_registry">Registro: </string>
+    <string name="fragment_info_status">Status: </string>
+    <string name="fragment_info_version">Versão SinApp: </string>
+    <string name="fragment_info_info">Com este aplicativo, você pode consultar suas notas e horários mais fáceis, num é bacana ? Porém, somos uma plataforma completamente independente da FUMEC. Foram alunos que criaram este sistema e não possui nenhum vínculo com a FUMEC. Qualquer problema que ocorrer com suas notas a responsável será a FUMEC.</string>
+
+</resources>

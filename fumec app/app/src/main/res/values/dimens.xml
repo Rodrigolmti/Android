@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_half_margin">8dp</dimen>
+
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="activity_half_padding">8dp</dimen>
+
+</resources>

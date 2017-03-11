@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    style="@style/LoginScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding">
+
+    <net.fumapp_android.ui.custom.CustomTextViewBlack
+        android:id="@+id/customTextViewBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="45sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_layout_registry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <net.fumapp_android.ui.custom.CustomEditText
+                android:id="@+id/edit_text_username"
+                style="@style/LoginEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/activity_login_enrollment_hint"
+                android:maxLines="1"
+                android:translationY="3dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <net.fumapp_android.ui.custom.CustomEditText
+                android:id="@+id/edit_text_password"
+                style="@style/LoginEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/activity_login_password_hint"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:translationY="3dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="450dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_button_selector"
+        android:text="@string/activity_login_button"
+        android:textColor="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/button_send"
+        android:layout_below="@id/relativeLayout2">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
